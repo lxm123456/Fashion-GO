@@ -1,5 +1,6 @@
 package com.fs.fashion_go;
 
+
 import android.R;
 import android.app.Activity;
 import android.os.Bundle;
@@ -20,4 +21,5 @@ public class test extends Activity{
 	}
 	
 	
+
 }
