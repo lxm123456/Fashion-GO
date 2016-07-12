@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="bg_title">#ff4A4A4A</color>
+    <color name="title">#FD0404</color>
+    <color name="bg">#E5E5E5</color>
+    
+    <color name="tab_txt_unin">#575757</color>
+    <color name="tab_txt_in">#F02A37</color>
+    
+    
+    <color name="bg_line">#CACACA</color>
+    <color name="bg_padding">#C9C3C3</color>
+    <color name="bg_info">#f7f7f7</color>
+    <color name="txt_basic">#999797</color>
+    <color name="txt_ordernum">#878585</color>
+    <color name="bg_classify_line">#CFB4B4</color>
+    <color name="txt_classify">#724040</color>
+    <color name="txt_goodlist_price">#ED4654</color>
+    <color name="txt_code">#9F9D9D</color>
+    <color name="txt_et_address">#7B7B7B</color>
+    <color name="black">#ff000000</color>
+    <color name="grayness">#BFBFBF</color>
+    <color name="gray">#696969</color>
+    <color name="txt_register">#8B929A</color>
+    <color name="txt_gray">#818181</color>
+    <color name="txt_home_item">#007CCB</color>
+    <color name="bg_grayness">#F6F6F6</color>
+    <color name="txt_item_line">#CCCCCC</color>
+    <color name="txt_autopia_time">#6B6B6B</color>
+    <color name="txt_practice">#454545</color>
+    <color name="green">#24C424</color>
+    <color name="red">#F93030</color>
+    <color name="bg_record">#EEEEEE</color>
+    <color name="item_error">#EC6941</color>
+    <color name="item_right">#B3D465</color>
+    <color name="item_accuracy">#2C7BF1</color>
+    <color name="error_topic">#F14646</color>
+    <color name="txt_popular">#F15E39</color>
+    <color name="txt_mini_sns">#333333</color>
+    <color name="read_more">#328BFA</color>
+    <color name="bg_start_item">#EDF9FF</color>
+    <color name="txt_bule_gray">#508CC3</color>
+    <color name="txt_bule_detail">#22A9E5</color>
+    <color name="txt_price">#FF6A3F</color>
+    <color name="txt_time">#B2B2B2</color>
+    <color name="orange">#F47A24</color>
+    <color name="txt_recommend">#0087C1</color>
+    <color name="txt_yellow">#FFB400</color>
+	
+	<drawable name="bg_title">#F02A38</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="yellow">#D8D800</drawable>
+    
+    
+</resources>

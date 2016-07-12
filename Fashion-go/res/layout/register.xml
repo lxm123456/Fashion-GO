@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+    <include layout="@layout/include_title_text_img"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/zhuce_text"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"  >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" 
+             android:orientation="horizontal">
+             <EditText
+	             android:id="@+id/zhuce_edphones"
+	             android:layout_width="wrap_content"
+	             android:layout_height="40dp"
+	             android:ems="10"
+	             android:layout_weight="1"
+	             android:hint="@string/zhuce_ed_phone" 
+	             android:maxLength="11"
+	             android:paddingLeft="10dp"
+	             android:singleLine="true"
+	             android:background="@drawable/qq_edit_login">
+	              <requestFocus />
+	         </EditText>
+	         
+             <TextView
+                 android:id="@+id/zhuce_getcode"
+                 android:layout_width="80dp"
+                 android:layout_height="match_parent"
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true"
+                 android:gravity="center"
+                 android:layout_marginLeft="10dp"
+                 android:text="@string/zhuce_get_code" 
+                 android:background="@drawable/qq_edit_login"
+                 android:textColor="@color/bg_title"/>
+         </LinearLayout>
+
+         
+     </LinearLayout>
+         <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_background" >
+
+         <EditText
+             android:id="@+id/zhuce_edcode"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:ems="10"
+             android:hint="@string/zhuce_ed_code" 
+             android:paddingLeft="10dp"
+	         android:paddingRight="10dp"
+            android:singleLine="true"
+            android:cursorVisible="true" 
+            android:background="@null">
+           
+         </EditText>
+         
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_background" >
+
+         <EditText
+             android:id="@+id/zhuce_edinvitecode"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:ems="10" 
+             android:hint="@string/zhuce_ed_invitecode" 
+             android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+            android:singleLine="true"
+            android:background="@null"/>
+
+     </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_background" >
+
+         <EditText
+             android:id="@+id/zhuce_edpws"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:ems="10" 
+             android:hint="@string/zhuce_ed_pws" 
+             android:paddingLeft="10dp"
+	         android:paddingRight="10dp"
+            android:singleLine="true"
+            android:background="@null"/>
+
+     </RelativeLayout>
+      <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/input_background" >
+
+         <EditText
+             android:id="@+id/zhuce_edquerenpws"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:ems="10" 
+             android:hint="@string/zhuce_ed_queren_pws" 
+             android:paddingLeft="10dp"
+	         android:paddingRight="10dp"
+            android:singleLine="true"
+            android:background="@null"/>
+
+     </RelativeLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+      <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+
+          <CheckBox
+              android:id="@+id/checkbox"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:textColor="#7f7f7f"
+              android:text="@string/zhuce_check" 
+              android:textSize="12dp"/>
+
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/checkbox"
+              android:layout_alignBottom="@+id/checkbox"
+              android:layout_marginLeft="14dp"
+              android:layout_toRightOf="@+id/checkbox"
+              android:text="@string/zhuce_xieyi"
+              android:textColor="#0201e1"
+              android:textSize="12sp" />
+
+     </RelativeLayout>
+      </LinearLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+         <Button
+            android:id="@+id/zhuce_btnqueren"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/zhuce_queding"
+            android:textColor="@color/white"
+            android:background="@drawable/selector_logo" />
+      </RelativeLayout>
+
+</LinearLayout>
