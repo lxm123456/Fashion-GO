@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import com.fs.fashion_go.dao.BaseActivity;
 import com.fs.fashion_go.net.MQuery;
+import com.fs.fashion_go.utils.T;
 
 public class Detail_goods extends BaseActivity{
 	private MQuery mQuery;
@@ -22,7 +23,7 @@ public class Detail_goods extends BaseActivity{
 	@Override
 	public void initView() {
 		// TODO Auto-generated method stub
-		
+		T.showMessage(this, "×öÕÐ±ê");
 	}
 
 }
