@@ -119,12 +119,12 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <com.fs.fashionshop.widget.NOScrollListView
+            <com.fs.fashion_go.widget.NOScrollListView
                 android:id="@+id/list_home_goods"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp" >
-            </com.fs.fashionshop.widget.NOScrollListView>
+            </com.fs.fashion_go.widget.NOScrollListView>
         </LinearLayout>
     </ScrollView>
 

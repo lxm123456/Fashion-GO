@@ -14,14 +14,14 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name="com.example.fashion_go.FSApp"
+        android:name="com.fs.fashion_go.FSApp"
         android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/NMTheme" >
         <activity
-            android:name="com.example.fashion_go.MainActivity"
+            android:name="com.fs.fashion_go.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,12 +42,7 @@
             android:label="@string/app_name"
             android:launchMode="singleTask" >
         </activity>
-        <!-- 首页 -->
-        <activity
-            android:name="com.fs.fashion_go.MainActivity"
-            android:label="@string/app_name"
-            android:launchMode="singleTask" >
-        </activity>
+
         <!-- 找回密码 -->
         <activity
             android:name="com.fs.fashion_go.login.FindPassword"
