@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    	 <include layout="@layout/include_second_list_bar" />
+
+    	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#fff"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radiobutton_related"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:checked="true"
+                android:drawableBottom="@drawable/selector_tab_order"
+                android:gravity="center"
+                android:text="相关"
+                android:textColor="@drawable/selector_order_tab_color" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="#CACACA" />
+
+            <RadioButton
+                android:id="@+id/radiobutton_sales"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableBottom="@drawable/selector_tab_order"
+                android:gravity="center"
+                android:text="销量"
+                android:textColor="@drawable/selector_order_tab_color" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="#CACACA" />
+
+            <RadioButton
+                android:id="@+id/radiobutton_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableBottom="@drawable/selector_tab_order"
+                android:gravity="center"
+                android:text="价格"
+                android:textColor="@drawable/selector_order_tab_color" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="#CACACA" />
+
+            <RadioButton
+                android:id="@+id/radiobutton_newproduct"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableBottom="@drawable/selector_tab_order"
+                android:gravity="center"
+                android:text="新品"
+                android:textColor="@drawable/selector_order_tab_color" />
+        </LinearLayout>
+
+    	<ListView
+    	    android:id="@+id/list_four_product"
+    	    android:layout_width="match_parent"
+    	    android:divider="@null"
+    	    android:layout_height="match_parent" >
+    	</ListView>
+
+</LinearLayout>
