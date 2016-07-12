@@ -27,7 +27,6 @@ public class Detail_goods extends BaseActivity {
 		// TODO Auto-generated method stub
 		T.showMessage(this, "√¿≈Æ∫√");
 		new TitleController(this).setTitle("").hideLImg();
-
 	}
 
 }
