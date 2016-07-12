@@ -27,6 +27,8 @@ public class Detail_goods extends BaseActivity {
 		// TODO Auto-generated method stub
 		T.showMessage(this, "美女好");
 		new TitleController(this).setTitle("").hideLImg();
+		T.showMessage(this, "先生你好");
+		T.showMessage(this, "你来呀，我不怕你了");
 	}
 
 }
