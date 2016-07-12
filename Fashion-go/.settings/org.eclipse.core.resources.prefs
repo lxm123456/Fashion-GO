@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//bin/resources.ap_=UTF-8
 encoding//res/values/strings.xml=UTF-8
 encoding//src/com/fs/fashion_go/AppData.java=UTF-8
 encoding//src/com/fs/fashion_go/FSApp.java=UTF-8
@@ -36,3 +37,4 @@ encoding//src/com/fs/fashion_go/utils/ScreenUtil.java=UTF-8
 encoding//src/com/fs/fashion_go/utils/T.java=UTF-8
 encoding//src/com/fs/fashion_go/utils/TextUtil.java=UTF-8
 encoding//src/com/fs/fashion_go/utils/TitleController.java=UTF-8
+encoding/AndroidManifest.xml=UTF-8
