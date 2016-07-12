@@ -17,6 +17,7 @@ import com.fs.fashion_go.net.MQuery;
 import com.fs.fashion_go.net.NetAccess.NetAccessListener;
 import com.fs.fashion_go.net.NetResult;
 import com.fs.fashion_go.utils.L;
+import com.fs.fashion_go.utils.T;
 
 public class Classify_four_ProductList extends BaseActivity implements OnClickListener,NetAccessListener {
 	private MQuery mQuery;
@@ -84,6 +85,7 @@ public class Classify_four_ProductList extends BaseActivity implements OnClickLi
 			finish();
 			break;
 		case R.id.radiobutton_related:
+			T.showMessage(this, "我来美女！嘿嘿");
 			lighton(0);
 			break;
 		case R.id.radiobutton_sales:
