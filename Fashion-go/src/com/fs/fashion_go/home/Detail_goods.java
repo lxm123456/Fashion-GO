@@ -23,7 +23,7 @@ public class Detail_goods extends BaseActivity{
 	@Override
 	public void initView() {
 		// TODO Auto-generated method stub
-		T.showMessage(this, "做招标");
+		T.showMessage(this, "美女好");
 	}
 
 }
