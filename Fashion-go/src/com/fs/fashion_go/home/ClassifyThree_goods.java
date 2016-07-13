@@ -34,7 +34,7 @@ public class ClassifyThree_goods extends BaseActivity implements OnClickListener
 	@Override
 	public void createActivity(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		setContentView(R.layout.classify_three_goods);
+		setContentView(R.layout.activity_classify_three_goods);
 	}
 
 	@Override

@@ -49,7 +49,7 @@ public class ClassifyThreeAdapter extends BaseAdapter{
 	public View getView(int position, View converView, ViewGroup arg2) {
 		final ClassifyThreeData item = getItem(position);
 		if (converView==null) {
-			converView=LayoutInflater.from(context).inflate(R.layout.classify_three_style, null);
+			converView=LayoutInflater.from(context).inflate(R.layout.item_classify_three, null);
 			holder = new ViewHolder(converView);
 			converView.setTag(holder);
 		}else {

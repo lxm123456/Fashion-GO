@@ -29,7 +29,7 @@ public class Register extends BaseActivity implements OnClickListener,NetAccessL
 	private boolean check = true;
 	@Override
 	public void createActivity(Bundle savedInstanceState) {
-		setContentView(R.layout.register);
+		setContentView(R.layout.activity_register);
 	}
 
 	@Override

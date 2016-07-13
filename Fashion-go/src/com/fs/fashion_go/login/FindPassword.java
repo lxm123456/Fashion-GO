@@ -24,7 +24,7 @@ public class FindPassword extends BaseActivity implements OnClickListener,NetAcc
 	private String find_ed_password;
 	@Override
 	public void createActivity(Bundle savedInstanceState) {
-		setContentView(R.layout.findpassword);
+		setContentView(R.layout.activity_findpassword);
 		
 	}
 

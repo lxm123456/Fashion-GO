@@ -49,7 +49,7 @@ public class ClassifytwoAdapter extends BaseAdapter{
 	public View getView(int position, View converView, ViewGroup arg2) {
 		final ClassifytwoData item = getItem(position);
 		if (converView==null) {
-			converView=LayoutInflater.from(context).inflate(R.layout.classify_two_style, null);
+			converView=LayoutInflater.from(context).inflate(R.layout.item_classify_two, null);
 			holder = new ViewHolder(converView);
 			converView.setTag(holder);
 		}else {
