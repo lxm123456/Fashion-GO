@@ -30,6 +30,7 @@ public class Detail_goods extends BaseActivity {
 		T.showMessage(this, "先生你好");
 		T.showMessage(this, "你来呀，我不怕你了");
 		T.showMessage(this, "你来呀，我不怕aaaaaa你了");
+		T.showMessage(this, "你来呀，我不怕787878787你了");
 		T.showMessage(this, "你来呀，我不怕bbbbbb你了");
 	}
 
