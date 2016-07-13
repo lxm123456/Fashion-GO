@@ -67,6 +67,61 @@
             android:label="@string/app_name"
             android:launchMode="singleTask" >
         </activity>
+        
+        <!--基本信息-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.MyInfoActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!--收获地址-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.MyAddressActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!--我的订单-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.MyOrderActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!--我的收藏-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.MyCollectActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!--我的分享-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.MyShareActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <!--新增收获地址-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.AddAddressActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <!--选择省份界面-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.ProvinceActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <!--选择省份下城市界面-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.CityActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <!--选择城市下的区域界面-->
+        <activity
+            android:launchMode="singleTask"
+            android:name="com.fs.fashion_go.mine.AreaActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
