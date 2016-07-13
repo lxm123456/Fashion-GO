@@ -36,7 +36,7 @@ public class Classifyone_good extends BaseActivity implements OnClickListener,Ne
 	private ClassifytwoAdapter twoAdapter = new ClassifytwoAdapter(Classifyone_good.this);
 	@Override
 	public void createActivity(Bundle savedInstanceState) {
-		setContentView(R.layout.classifygoods_one);
+		setContentView(R.layout.acitivity_one_classifygoods);
 		//禁止键盘自动弹出
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 	}

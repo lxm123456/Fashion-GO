@@ -28,7 +28,7 @@ public class Classify_four_ProductList extends BaseActivity implements OnClickLi
 	@Override
 	public void createActivity(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		setContentView(R.layout.classify_four_product_list);
+		setContentView(R.layout.activity_classify_product_list);
 		//设置不让搜索键盘自动弹出
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 		intent=this.getIntent();

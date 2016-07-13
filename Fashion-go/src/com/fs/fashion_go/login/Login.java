@@ -32,7 +32,7 @@ public class Login extends BaseActivity implements OnClickListener,
 	@Override
 	public void createActivity(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		setContentView(R.layout.login);
+		setContentView(R.layout.activity_login);
 	}
 
 	@Override
